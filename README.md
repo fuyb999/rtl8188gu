@@ -32,7 +32,7 @@ consult your distro.
 I tested on Ubuntu 16.04, 20.04 and last version OpenWRT, it's work...
 
 
-### Do it
+### for Ubuntu 20.04
 ```
 cd rtl8188gu
 sudo make
