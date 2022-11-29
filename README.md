@@ -30,3 +30,14 @@ consult your distro.
 
 ### Testing
 I tested on Ubuntu 16.04, 20.04 and last version OpenWRT, it's work...
+
+
+### Do it
+```
+cd rtl8188gu
+sudo make
+sudo make install
+sudo modprobe 8188gu
+sudo usb_modeswitch -KW -v 0bda -p b711
+reboot
+```
